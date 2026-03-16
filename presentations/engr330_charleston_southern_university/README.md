@@ -29,7 +29,15 @@ To begin:
 
 These examples are part of the repository **[PauloRadatz/opendss-python-examples](https://github.com/PauloRadatz/opendss-python-examples)**.
 
-Each notebook is self-contained and does not depend on external Python scripts. Feeder models used in the notebooks are stored under:
+Each notebook is self-contained and does not depend on external Python scripts. Available notebooks:
+
+- `overvoltage.ipynb` — Overvoltage hosting capacity (single bus)
+- `overvoltage_centralized.ipynb` — Centralized overvoltage hosting capacity (all buses, plotted on circuit)
+- `overvoltage_distributed_fixed_locations.ipynb` — Distributed overvoltage hosting capacity (fixed bus locations, compares two scenarios)
+- `overvoltage_distributed_fixed_locations_monte_carlo.ipynb` — Distributed overvoltage hosting capacity with Monte Carlo random bus selection
+- `thermal_gen.ipynb` — Thermal (line/transformer loading) hosting capacity
+
+Feeder models used in the notebooks are stored under:
 
 - `feeder_models/`
 
