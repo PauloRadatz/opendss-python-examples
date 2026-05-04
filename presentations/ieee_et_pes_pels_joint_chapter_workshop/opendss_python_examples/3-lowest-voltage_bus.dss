@@ -1,0 +1,12 @@
+compile "C:\PauloRadatz\GitHub\opendss-python-examples\feeder_models\IEEETestCases\123Bus\IEEE123Master.dss"
+
+new Energymeter.m element=line.l115 terminal=1
+set loadmult=1 
+set mode=snapshot
+solve
+
+! We can look at the following file 
+! We can get the minimum value in Min pu. voltage and find the bus.node
+Show Voltage LN Nodes
+
+! How many do bus.node(s) have voltage below 0.98pu?

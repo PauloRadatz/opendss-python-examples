@@ -28,7 +28,7 @@ To begin:
 
 - `01_opendss_workflow_with_py_dss_interface.ipynb` — Translate a typical OpenDSS run file into Python using only `py-dss-interface`. Compile, send commands, set parameters, solve, read results.
 - `02_load_level_sweep.ipynb` — Sweep the load multiplier across the feeder, capture key metrics in a DataFrame, and visualize them. The "why automate?" notebook.
-- `03_finding_lowest_voltage_bus.ipynb` — Find the worst-voltage node on the feeder in two lines, then expand the question with pandas.
+- `03_finding_lowest_voltage_bus.ipynb` — Find the worst-voltage node on the feeder in a few lines, then expand the question with pandas.
 - `04_introduction_to_py_dss_toolkit.ipynb` — Re-do the same workflow with `py-dss-toolkit`. Structured DataFrames, ready-made result tables, voltage profile, and circuit map in one line each.
 
 Feeder used in the examples: **IEEE 123bus** under `feeder_models/IEEETestCases/123Bus/`.

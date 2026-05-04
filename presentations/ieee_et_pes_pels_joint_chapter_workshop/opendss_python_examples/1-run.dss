@@ -1,0 +1,8 @@
+compile "C:\PauloRadatz\GitHub\opendss-python-examples\feeder_models\IEEETestCases\123Bus\IEEE123Master.dss"
+
+new Energymeter.m element=line.l115 terminal=1
+set mode=snapshot
+solve
+
+Show Voltage LN Nodes
+export voltages

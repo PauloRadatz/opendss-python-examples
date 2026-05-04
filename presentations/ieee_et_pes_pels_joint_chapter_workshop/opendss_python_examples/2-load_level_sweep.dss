@@ -1,0 +1,11 @@
+compile "C:\PauloRadatz\GitHub\opendss-python-examples\feeder_models\IEEETestCases\123Bus\IEEE123Master.dss"
+
+new Energymeter.m element=line.l115 terminal=1
+set mode=snapshot
+
+! Set manually each load level [0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+set loadmult=1 
+
+solve
+
+! Get from the summary Min pu. voltage and Total Active Power values
