@@ -16,7 +16,7 @@ The main goals of this set are:
 
 ## Getting started
 
-Each notebook is intended to run cleanly in **Google Colab** from top to bottom. The first code cell installs the dependencies and clones the repository so the `ckt5` feeder is available.
+Each notebook is intended to run cleanly in **Google Colab** from top to bottom. The first code cell installs the dependencies and clones the repository so the `IEEE123bus` feeder is available.
 
 To begin:
 
@@ -31,7 +31,7 @@ To begin:
 - `03_finding_lowest_voltage_bus.ipynb` — Find the worst-voltage node on the feeder in two lines, then expand the question with pandas.
 - `04_introduction_to_py_dss_toolkit.ipynb` — Re-do the same workflow with `py-dss-toolkit`. Structured DataFrames, ready-made result tables, voltage profile, and circuit map in one line each.
 
-Feeder used in the examples: **EPRITestCircuits ckt5** under `feeder_models/EPRITestCircuits/ckt5/`.
+Feeder used in the examples: **IEEE 123bus** under `feeder_models/IEEETestCases/123Bus/`.
 
 ## Workshop message
 
@@ -41,7 +41,7 @@ OpenDSS works fine on its own. With `py-dss-interface`, every OpenDSS command be
 
 These examples are part of **[PauloRadatz/opendss-python-examples](https://github.com/PauloRadatz/opendss-python-examples)**.
 
-More learning materials: [pauloradatz.me](https://www.pauloradatz.me) and [OpenDSS courses](https://www.pauloradatz.me/opendss-courses).
+More learning materials: [OpenDSS courses](https://www.pauloradatz.me/opendss-courses).
 
 ## Contact
 
